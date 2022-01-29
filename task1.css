@@ -58,7 +58,8 @@
   width: 280px;
   margin: 10px 10px 15px 10px;
   background-image: url(chapter9_exercise/img/flow01.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .htext1 {
@@ -97,7 +98,8 @@
   width: 280px;
   margin: 10px 10px 15px 10px;
   background-image: url(chapter9_exercise/img/flow02.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .main-contents > div:nth-child(3) {
@@ -112,7 +114,8 @@
   width: 280px;
   margin: 10px 10px 15px 10px;
   background-image: url(chapter9_exercise/img/flow03.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .footer-text {
@@ -138,34 +141,34 @@
 
   .main-step1 {
     width: 90% !important;
-    margin: 0 5% 10px 5% !important;
+    margin: 0 5% 0 5% !important;
     padding-top: 10px;
   }
 
   .main-step1-image {
     width: 90%;
-    margin-top: 10px !important;
+    margin-top: 0px;
   }
 
   .main-step2 {
     width: 90% !important;
-    margin: 10px 5% 10px 5% !important;
+    margin: 20px 5% 0 5% !important;
     padding-top: 10px;
   }
 
   .main-step2-image {
     width: 90%;
-    margin-top: 10px !important;
+    margin-top: 0px;
   }
 
   .main-step3-image {
     width: 90%;
-    margin-top: 10px !important;
+    margin-top: 0px;
   }
 
   .main-step3 {
     width: 90% !important;
-    margin: 10px 5% 0 5% !important;
+    margin: 20px 5% 0 5% !important;
     padding-top: 10px;
   }
 }
